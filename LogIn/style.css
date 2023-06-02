@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logInForm {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: gray;
+}
+
+form {
+  display: grid;
+  row-gap: 30px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.inputform {
+  display: grid;
+  width: 100%;
+}
+
+.inputform input {
+  padding: 12px 5px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.inputform label {
+  text-transform: capitalize;
+}
+
+.form_section-B {
+  display: grid;
+  row-gap: 20px;
+}
+
+.form_section-A {
+  text-align: center;
+  font-size: 40px;
+}
+
+.input-submit input {
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 14px 2px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.input-submit a {
+  color: dodgerblue;
+  text-align: center;
+  text-decoration: none;
+}
+
+.checkbox-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-section a {
+  text-decoration: none;
+  color: dodgerblue;
+}
